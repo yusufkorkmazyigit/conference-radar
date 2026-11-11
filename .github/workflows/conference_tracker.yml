@@ -1,0 +1,64 @@
+name: Akademik Konferans Takip Botu
+
+on:
+  schedule:
+    # Pazartesi (1) ve Perşembe (4) 06:00 UTC = 09:00 Türkiye saati
+    - cron: "0 6 * * 1,4"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Sadece önizleme üret, e-posta gönderme"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # state/seen.json dosyasını geri commit'lemek için
+
+concurrency:
+  group: conference-tracker
+  cancel-in-progress: false
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Repoyu çek
+        uses: actions/checkout@v5
+
+      - name: Python kur
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Bağımlılıkları yükle
+        run: pip install -r requirements.txt
+
+      - name: Konferansları tara ve e-posta gönder
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+        run: python tracker.py
+
+      - name: E-posta önizlemesini sakla
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: email-preview
+          path: preview.html
+          if-no-files-found: ignore
+          retention-days: 14
+
+      - name: Görülen etkinlik listesini kaydet
+        if: success() && inputs.dry_run != true
+        run: |
+          if [ -f state/seen.json ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add state/seen.json
+            git diff --cached --quiet || (git commit -m "chore: konferans takip durumu güncellendi" && git push)
+          fi
