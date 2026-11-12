@@ -2,128 +2,158 @@
   "events": {
     "aame-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "AAME 2027"
     },
     "acl-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "ACL 2027"
     },
     "aidaa-2026": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "AIDAA 2026"
     },
     "aigc-2026": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "AIGC 2026"
     },
     "arci-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "ARCI 2027"
     },
     "bioimaging-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "BIOIMAGING 2027"
+    },
+    "bis-2027": {
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "title": "BIS 2027"
+    },
+    "cir-2026": {
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "title": "CIR 2026"
     },
     "cpal-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "CPAL 2027"
     },
     "cvaihongkong-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "CVAI-Hongkong 2027"
     },
     "cvci-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "CVCI 2027"
     },
     "dasfaa-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "DASFAA 2027"
     },
     "eiscopusacai-2026": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "Ei/Scopus-ACAI 2026"
     },
     "eiscopusmlbdm-2026": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "Ei/Scopus-MLBDM 2026"
     },
     "eiscopusprdm-2026": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "Ei/Scopus-PRDM 2026"
     },
     "eswc-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "ESWC 2027"
     },
     "fcceei-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "FCCE--EI 2027"
     },
     "icaps-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "ICAPS 2027"
     },
     "iccae-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "ICCAE 2027"
     },
     "icictei-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "ICICT--EI 2027"
     },
     "iciea-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "ICIEA 2027"
     },
     "icladis-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "ICLADIS 2027"
     },
     "icmlcei-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "ICMLC--EI 2027"
     },
     "icmlsc-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "ICMLSC 2027"
+    },
+    "icnlp-2027": {
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "title": "ICNLP 2027"
     },
     "icrmv-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "ICRMV 2027"
     },
     "icsca-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "ICSCA 2027"
+    },
+    "ieaiei-2027": {
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "title": "IEAI--EI 2027"
     },
     "ieeecsecs-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "IEEE-CSECS 2027"
+    },
+    "ieeeicigp-2027": {
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "title": "IEEE ICIGP 2027"
+    },
+    "ieeeicmre-2027": {
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "title": "IEEE ICMRE 2027"
     },
     "ieeeiscbi-2027": {
       "first_seen": "2026-11-11",
@@ -132,69 +162,89 @@
     },
     "ieeemlhmi-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "IEEE MLHMI 2027"
     },
     "ijcai-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "IJCAI 2027"
     },
     "imiss-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "iMISS 2027"
+    },
+    "intellisys-2027": {
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "title": "IntelliSys 2027"
+    },
+    "itcebn-2026": {
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "title": "ITCEBN 2026"
     },
     "jcice-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "JCICE 2027"
     },
     "lcsai-2026": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "LCSAI 2026"
     },
     "mlcc-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "MLCC 2027"
     },
     "pods-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "PODS 2027"
     },
     "prcvip-2026": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "PRCVIP 2026"
     },
     "rss-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "RSS 2027"
     },
     "sai-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "SAI 2027"
+    },
+    "spiespra-2027": {
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "title": "SPIE SPRA 2027"
+    },
+    "springericiea-2027": {
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "title": "Springer ICIEA 2027"
     },
     "visapp-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "VISAPP 2027"
     },
     "vldb-2027": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "VLDB 2027"
     },
     "vuir-2026": {
       "first_seen": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "title": "VUIR 2026"
     }
   },
-  "last_run": "2026-11-11T22:27:35+00:00"
+  "last_run": "2026-11-12T14:38:08+00:00"
 }
